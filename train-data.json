@@ -1,0 +1,1067 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [{
+                "name": "greet",
+                "pattern": "ciao[^\\s]*"
+            },
+            {
+                "name": "amount",
+                "pattern": "/((\\d{1,3}(\\.?\\d{3})*(,\\d{2})?)((\\s)*(\\w)*(\\s)*)*(\\€|euro|eur|euri|EURO|EUR|EURI))/g"
+            }
+        ],
+        "entity_synonyms": [{
+                "value": "home",
+                "synonyms": [
+                    "abitazione",
+                    "casa",
+                    "prima casa",
+                    "seconda casa",
+                    "appartamento",
+                    "villa",
+                    "villetta",
+                    "domicilio"
+                ]
+            },
+            {
+                "value": "mortgage",
+                "synonyms": [
+                    "mutuo",
+                    "mutui",
+                    "Mutuo",
+                    "Mutui",
+                    "appartamento",
+                    "villa",
+                    "villetta",
+                    "domicilio"
+                ]
+            },
+            {
+                "value": "policy",
+                "synonyms": [
+                    "polizza",
+                    "polizze",
+                    "polizza vita",
+                    "assicurazione",
+                    "stipula"
+                ]
+            }
+        ],
+        "common_examples": [{
+                "text": "ciao!",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "ehi ciao",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "come va?",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "buongiorno",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "buonasera",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "ciao bot!",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "ciao bello",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "daje",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "mitico",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "super",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "grande",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "ti chi ha creato?",
+                "intent": "who_author",
+                "entities": []
+            },
+            {
+                "text": "da chi sei stato generato?",
+                "intent": "who_author",
+                "entities": []
+            },
+            {
+                "text": "come sei nato?",
+                "intent": "who_author",
+                "entities": []
+            },
+            {
+                "text": "quando sei nato?",
+                "intent": "who_author",
+                "entities": []
+            },
+            {
+                "text": "da chi sei stato creato?",
+                "intent": "who_author",
+                "entities": []
+            },
+            {
+                "text": "chi ti ha sviluppato?",
+                "intent": "who_author",
+                "entities": []
+            },
+            {
+                "text": "chi sei?",
+                "intent": "who_author",
+                "entities": []
+            },
+            {
+                "text": "cosa sei?",
+                "intent": "who_author",
+                "entities": []
+            },
+            {
+                "text": "stronzo",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "testa di cazzo",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "mortacci tua",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "vai in mona",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "vaffanculo",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "vai a fare in culo",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "vaffanculo stronzo",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "sei un coglione",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "coglione",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "bastardo",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "sei un bastardo",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "stupido leccaculo",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "figlio di puttana",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "mignotta",
+                "intent": "badword",
+                "entities": []
+            },
+            {
+                "text": "ehi bello!",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "Ehilà",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "no",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "no grazie",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "NO",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "No grazie",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "OK",
+                "intent": "positive",
+                "entities": []
+            },
+            {
+                "text": "ok",
+                "intent": "positive",
+                "entities": []
+            },
+            {
+                "text": "ok grazie",
+                "intent": "positive",
+                "entities": []
+            },
+            {
+                "text": "Ok grazie",
+                "intent": "positive",
+                "entities": []
+            },
+            {
+                "text": "va bene",
+                "intent": "positive",
+                "entities": []
+            },
+            {
+                "text": "Va bene",
+                "intent": "positive",
+                "entities": []
+            },
+            {
+                "text": "Va bene Grazie",
+                "intent": "positive",
+                "entities": []
+            },
+            {
+                "text": "chi sei?",
+                "intent": "who_author",
+                "entities": []
+            },
+            {
+                "text": "Chi sei",
+                "intent": "who_author",
+                "entities": []
+            },
+            {
+                "text": "sei un bot?",
+                "intent": "who_author",
+                "entities": []
+            },
+            {
+                "text": "cosa posso fare?",
+                "intent": "list_arguments",
+                "entities": []
+            },
+            {
+                "text": "Sono povero cosa posso fare?",
+                "intent": "list_arguments",
+                "entities": []
+            },
+            {
+                "text": "Allora sei di coccio",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "non capisci niente",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "non capisci nulla!",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "si",
+                "intent": "positive",
+                "entities": []
+            },
+            {
+                "text": "Si",
+                "intent": "positive",
+                "entities": []
+            },
+            {
+                "text": "SI",
+                "intent": "positive",
+                "entities": []
+            },
+            {
+                "text": "non ho trovato quello che cerco",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "non ho capito",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "voglio informazioni sui mutui",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 24,
+                    "end": 29,
+                    "value": "mutui",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "come si apre una polizza?",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 17,
+                    "end": 24,
+                    "value": "polizza",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "mutui",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 0,
+                    "end": 5,
+                    "value": "mutui",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "Mutuo",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 0,
+                    "end": 5,
+                    "value": "Mutuo",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "polizze",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 0,
+                    "end": 7,
+                    "value": "polizze",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "vorrei info sulle polizze",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 18,
+                    "end": 25,
+                    "value": "polizze",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "info su mutuo",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 8,
+                    "end": 13,
+                    "value": "mutuo",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "come si ottiene la surroga?",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 19,
+                    "end": 26,
+                    "value": "surroga",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "cosa posso chiederti?",
+                "intent": "list_arguments",
+                "entities": []
+            },
+            {
+                "text": "quali sono gli argomenti?",
+                "intent": "list_arguments",
+                "entities": []
+            },
+            {
+                "text": "vorrei sapere come aprire un mutuo",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 29,
+                    "end": 34,
+                    "value": "mutuo",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "cosa intendi con polizza?",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 17,
+                    "end": 24,
+                    "value": "polizza",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "di cosa parliamo?",
+                "intent": "list_arguments",
+                "entities": []
+            },
+            {
+                "text": "sai aiutarmi in altro?",
+                "intent": "list_arguments",
+                "entities": []
+            },
+            {
+                "text": "aiutami",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "vorrei parlare di mutui",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 18,
+                    "end": 23,
+                    "value": "mutui",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "mi puoi offrire un mutuo a tasso fisso?",
+                "intent": "info_prod",
+                "entities": [{
+                        "start": 27,
+                        "end": 38,
+                        "value": "tasso fisso",
+                        "entity": "rate"
+                    },
+                    {
+                        "start": 19,
+                        "end": 24,
+                        "value": "mutuo",
+                        "entity": "info_prod_what"
+                    }
+                ]
+            },
+            {
+                "text": "offrimi una polizza!",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 12,
+                    "end": 19,
+                    "value": "polizza",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "vorrei una polizza Serenity",
+                "intent": "info_prod",
+                "entities": [{
+                        "start": 11,
+                        "end": 18,
+                        "value": "polizza",
+                        "entity": "info_prod_what"
+                    },
+                    {
+                        "start": 19,
+                        "end": 27,
+                        "value": "Serenity",
+                        "entity": "info_prod_type"
+                    }
+                ]
+            },
+            {
+                "text": "aprimi un mutuo",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 10,
+                    "end": 15,
+                    "value": "mutuo",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "aprimi un mutuo a tasso variabile",
+                "intent": "info_prod",
+                "entities": [{
+                        "start": 10,
+                        "end": 15,
+                        "value": "mutuo",
+                        "entity": "info_prod_what"
+                    },
+                    {
+                        "start": 18,
+                        "end": 33,
+                        "value": "tasso variabile",
+                        "entity": "rate"
+                    },
+                    {
+                        "start": 24,
+                        "end": 33,
+                        "value": "variabile",
+                        "entity": "rate_type"
+                    }
+                ]
+            },
+            {
+                "text": "mi serve una polizza casa e Famiglia",
+                "intent": "info_prod",
+                "entities": [{
+                        "start": 13,
+                        "end": 20,
+                        "value": "polizza",
+                        "entity": "info_prod_what"
+                    },
+                    {
+                        "start": 21,
+                        "end": 36,
+                        "value": "casa e Famiglia",
+                        "entity": "info_prod_type"
+                    }
+                ]
+            },
+            {
+                "text": "vorrei un mutuo a tasso fisso e durata di 30 anni",
+                "intent": "info_prod",
+                "entities": [{
+                        "start": 10,
+                        "end": 15,
+                        "value": "mutuo",
+                        "entity": "info_prod_what"
+                    },
+                    {
+                        "start": 18,
+                        "end": 29,
+                        "value": "tasso fisso",
+                        "entity": "rate"
+                    },
+                    {
+                        "start": 42,
+                        "end": 44,
+                        "value": "30",
+                        "entity": "duration"
+                    },
+                    {
+                        "start": 24,
+                        "end": 29,
+                        "value": "fisso",
+                        "entity": "rate_type"
+                    }
+                ]
+            },
+            {
+                "text": "dammi una polizza per Incendio e scoppio",
+                "intent": "info_prod",
+                "entities": [{
+                        "start": 10,
+                        "end": 17,
+                        "value": "polizza",
+                        "entity": "info_prod_what"
+                    },
+                    {
+                        "start": 22,
+                        "end": 40,
+                        "value": "Incendio e scoppio",
+                        "entity": "info_prod_type"
+                    }
+                ]
+            },
+            {
+                "text": "ho 35 anni e vorrei un mutuo",
+                "intent": "info_prod",
+                "entities": [{
+                        "start": 3,
+                        "end": 5,
+                        "value": "35",
+                        "entity": "age"
+                    },
+                    {
+                        "start": 23,
+                        "end": 28,
+                        "value": "mutuo",
+                        "entity": "info_prod_type"
+                    }
+                ]
+            },
+            {
+                "text": "vorrei una polizza da associare al mio mutuo",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 11,
+                    "end": 18,
+                    "value": "polizza",
+                    "entity": "info_prod_type"
+                }]
+            },
+            {
+                "text": "che tipi di mutuo avete?",
+                "intent": "types_prod",
+                "entities": [{
+                    "start": 12,
+                    "end": 17,
+                    "value": "mutuo",
+                    "entity": "types_prod_what"
+                }]
+            },
+            {
+                "text": "elencami le polizze disponibili",
+                "intent": "types_prod",
+                "entities": [{
+                    "start": 12,
+                    "end": 19,
+                    "value": "polizze",
+                    "entity": "types_prod_what"
+                }]
+            },
+            {
+                "text": "Vorrei conoscere i mutui a disposizione",
+                "intent": "types_prod",
+                "entities": [{
+                    "start": 19,
+                    "end": 24,
+                    "value": "mutui",
+                    "entity": "types_prod_what"
+                }]
+            },
+            {
+                "text": "sono indeciso sul tipo di polizza da scegliere",
+                "intent": "types_prod",
+                "entities": [{
+                    "start": 26,
+                    "end": 33,
+                    "value": "polizza",
+                    "entity": "types_prod_what"
+                }]
+            },
+            {
+                "text": "ho bisogno della certificazione degli interessi",
+                "intent": "ask_cert_int_pass",
+                "entities": []
+            },
+            {
+                "text": "dammi la certificazione degli interessi passivi",
+                "intent": "ask_cert_int_pass",
+                "entities": []
+            },
+            {
+                "text": "come si ottengono gli Interessi passivi?",
+                "intent": "ask_cert_int_pass",
+                "entities": []
+            },
+            {
+                "text": "vorrei la certificazione",
+                "intent": "ask_cert_int_pass",
+                "entities": []
+            },
+            {
+                "text": "certificazione interessi passivi",
+                "intent": "ask_cert_int_pass",
+                "entities": []
+            },
+            {
+                "text": "interessi passivi dove li trovo?",
+                "intent": "ask_cert_int_pass",
+                "entities": []
+            },
+            {
+                "text": "dimmi le tipologie di mutuo",
+                "intent": "types_prod",
+                "entities": [{
+                    "start": 22,
+                    "end": 27,
+                    "value": "mutuo",
+                    "entity": "types_prod_what"
+                }]
+            },
+            {
+                "text": "elenco delle polizze",
+                "intent": "types_prod",
+                "entities": [{
+                    "start": 13,
+                    "end": 20,
+                    "value": "polizze",
+                    "entity": "types_prod_what"
+                }]
+            },
+            {
+                "text": "tra quali polizze posso scegliere?",
+                "intent": "types_prod",
+                "entities": [{
+                    "start": 10,
+                    "end": 17,
+                    "value": "polizze",
+                    "entity": "types_prod_what"
+                }]
+            },
+            {
+                "text": "quanti anni hai?",
+                "intent": "who_author",
+                "entities": []
+            },
+            {
+                "text": "vorrei fare un mutuo",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 15,
+                    "end": 20,
+                    "value": "mutuo",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "Cosa sai fare?",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "devo acquistare casa",
+                "intent": "mortgage",
+                "entities": []
+            },
+            {
+                "text": "vorrei acquistare la seconda casa",
+                "intent": "mortgage",
+                "entities": []
+            },
+            {
+                "text": "sto cercando casa!",
+                "intent": "mortgage",
+                "entities": []
+            },
+            {
+                "text": "comprare casa",
+                "intent": "mortgage",
+                "entities": []
+            },
+            {
+                "text": "accendimi un mutuo di 300000 euro",
+                "intent": "info_prod",
+                "entities": [{
+                        "start": 13,
+                        "end": 18,
+                        "value": "mutuo",
+                        "entity": "info_prod_what"
+                    },
+                    {
+                        "start": 22,
+                        "end": 28,
+                        "value": "300000",
+                        "entity": "amount"
+                    }
+                ]
+            },
+            {
+                "text": "vorrei aprire un mutuo di 210.000 €",
+                "intent": "info_prod",
+                "entities": [{
+                        "start": 17,
+                        "end": 22,
+                        "value": "mutuo",
+                        "entity": "info_prod_what"
+                    },
+                    {
+                        "start": 26,
+                        "end": 33,
+                        "value": "210.000",
+                        "entity": "amount"
+                    }
+                ]
+            },
+            {
+                "text": "posso accendere un mutuo di 1000000 di euro?",
+                "intent": "info_prod",
+                "entities": [{
+                        "start": 19,
+                        "end": 24,
+                        "value": "mutuo",
+                        "entity": "info_prod_what"
+                    },
+                    {
+                        "start": 28,
+                        "end": 35,
+                        "value": "1000000",
+                        "entity": "amount"
+                    }
+                ]
+            },
+            {
+                "text": "ho 35 anni e vorrei un mutuo di 120.000euri",
+                "intent": "info_prod",
+                "entities": [{
+                        "start": 23,
+                        "end": 28,
+                        "value": "mutuo",
+                        "entity": "info_prod_what"
+                    },
+                    {
+                        "start": 3,
+                        "end": 5,
+                        "value": "35",
+                        "entity": "age"
+                    },
+                    {
+                        "start": 32,
+                        "end": 39,
+                        "value": "120.000",
+                        "entity": "amount"
+                    }
+                ]
+            },
+            {
+                "text": "mi hai stancato",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "sono stanco",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "che palle!",
+                "intent": "negative",
+                "entities": []
+            },
+            {
+                "text": "Ricomincia",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "Che polizze avete?",
+                "intent": "types_prod",
+                "entities": [{
+                    "start": 4,
+                    "end": 11,
+                    "value": "polizze",
+                    "entity": "types_prod_what"
+                }]
+            },
+            {
+                "text": "quali mutui sono disponibili?",
+                "intent": "types_prod",
+                "entities": [{
+                    "start": 6,
+                    "end": 11,
+                    "value": "mutui",
+                    "entity": "types_prod_what"
+                }]
+            },
+            {
+                "text": "quali polizze sono a disposizione",
+                "intent": "types_prod",
+                "entities": [{
+                    "start": 6,
+                    "end": 13,
+                    "value": "polizze",
+                    "entity": "types_prod_what"
+                }]
+            },
+            {
+                "text": "che mutui ci sono?",
+                "intent": "types_prod",
+                "entities": [{
+                    "start": 4,
+                    "end": 9,
+                    "value": "mutui",
+                    "entity": "types_prod_what"
+                }]
+            },
+            {
+                "text": "addio",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "ci vediamo",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "arrivederci",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "a presto",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "salve",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "ti saluto",
+                "intent": "bye",
+                "entities": []
+            },
+            {
+                "text": "cosa posso chiederti?",
+                "intent": "list_arguments",
+                "entities": []
+            },
+            {
+                "text": "di cosa possiamo parlare",
+                "intent": "list_arguments",
+                "entities": []
+            },
+            {
+                "text": "ho bisogno di aiuto",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "voglio info sulle polizze",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 18,
+                    "end": 25,
+                    "value": "polizze",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "non trovo quello che cerco",
+                "intent": "help",
+                "entities": []
+            },
+            {
+                "text": "polizza",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 0,
+                    "end": 7,
+                    "value": "polizza",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "vorrei un mutuo a tasso fisso",
+                "intent": "info_prod",
+                "entities": [{
+                        "start": 10,
+                        "end": 15,
+                        "value": "mutuo",
+                        "entity": "info_prod_what"
+                    },
+                    {
+                        "start": 18,
+                        "end": 29,
+                        "value": "tasso fisso",
+                        "entity": "rate"
+                    },
+                    {
+                        "start": 24,
+                        "end": 29,
+                        "value": "fisso",
+                        "entity": "rate_type"
+                    }
+                ]
+            },
+            {
+                "text": "cosa sai dirmi sulla polizza Serenity",
+                "intent": "info_prod",
+                "entities": [{
+                        "start": 21,
+                        "end": 28,
+                        "value": "polizza",
+                        "entity": "info_prod_what"
+                    },
+                    {
+                        "start": 29,
+                        "end": 37,
+                        "value": "Serenity",
+                        "entity": "info_prod_type"
+                    }
+                ]
+            },
+            {
+                "text": "che polizze assicurative avete?",
+                "intent": "types_prod",
+                "entities": [{
+                    "start": 4,
+                    "end": 11,
+                    "value": "polizze",
+                    "entity": "types_prod_what"
+                }]
+            },
+            {
+                "text": "salve vorrei un mutuo perchè devo comprarmi la moto",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 16,
+                    "end": 21,
+                    "value": "mutuo",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "vorrei associare una polizza al mio mutuo",
+                "intent": "info_prod",
+                "entities": [{
+                    "start": 21,
+                    "end": 28,
+                    "value": "polizza",
+                    "entity": "info_prod_what"
+                }]
+            },
+            {
+                "text": "devo prendere la prima casa",
+                "intent": "mortgage",
+                "entities": []
+            }
+        ]
+    }
+}
