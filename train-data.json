@@ -348,7 +348,7 @@
                     "start": 24,
                     "end": 29,
                     "value": "mutui",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -358,7 +358,7 @@
                     "start": 17,
                     "end": 24,
                     "value": "polizza",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -368,7 +368,7 @@
                     "start": 0,
                     "end": 5,
                     "value": "mutui",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -378,7 +378,7 @@
                     "start": 0,
                     "end": 5,
                     "value": "Mutuo",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -388,7 +388,7 @@
                     "start": 0,
                     "end": 7,
                     "value": "polizze",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -398,7 +398,7 @@
                     "start": 18,
                     "end": 25,
                     "value": "polizze",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -408,7 +408,7 @@
                     "start": 8,
                     "end": 13,
                     "value": "mutuo",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -418,7 +418,7 @@
                     "start": 19,
                     "end": 26,
                     "value": "surroga",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -438,7 +438,7 @@
                     "start": 29,
                     "end": 34,
                     "value": "mutuo",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -448,7 +448,7 @@
                     "start": 17,
                     "end": 24,
                     "value": "polizza",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -473,7 +473,7 @@
                     "start": 18,
                     "end": 23,
                     "value": "mutui",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -489,7 +489,7 @@
                         "start": 19,
                         "end": 24,
                         "value": "mutuo",
-                        "entity": "info_prod_what"
+                        "entity": "prod"
                     }
                 ]
             },
@@ -500,7 +500,7 @@
                     "start": 12,
                     "end": 19,
                     "value": "polizza",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -510,13 +510,13 @@
                         "start": 11,
                         "end": 18,
                         "value": "polizza",
-                        "entity": "info_prod_what"
+                        "entity": "prod"
                     },
                     {
                         "start": 19,
                         "end": 27,
                         "value": "Serenity",
-                        "entity": "info_prod_type"
+                        "entity": "prod"
                     }
                 ]
             },
@@ -527,7 +527,7 @@
                     "start": 10,
                     "end": 15,
                     "value": "mutuo",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -537,7 +537,7 @@
                         "start": 10,
                         "end": 15,
                         "value": "mutuo",
-                        "entity": "info_prod_what"
+                        "entity": "prod"
                     },
                     {
                         "start": 18,
@@ -560,13 +560,13 @@
                         "start": 13,
                         "end": 20,
                         "value": "polizza",
-                        "entity": "info_prod_what"
+                        "entity": "prod"
                     },
                     {
                         "start": 21,
                         "end": 36,
                         "value": "casa e Famiglia",
-                        "entity": "info_prod_type"
+                        "entity": "prod"
                     }
                 ]
             },
@@ -577,7 +577,7 @@
                         "start": 10,
                         "end": 15,
                         "value": "mutuo",
-                        "entity": "info_prod_what"
+                        "entity": "prod"
                     },
                     {
                         "start": 18,
@@ -606,13 +606,13 @@
                         "start": 10,
                         "end": 17,
                         "value": "polizza",
-                        "entity": "info_prod_what"
+                        "entity": "prod"
                     },
                     {
                         "start": 22,
                         "end": 40,
                         "value": "Incendio e scoppio",
-                        "entity": "info_prod_type"
+                        "entity": "prod"
                     }
                 ]
             },
@@ -629,7 +629,7 @@
                         "start": 23,
                         "end": 28,
                         "value": "mutuo",
-                        "entity": "info_prod_type"
+                        "entity": "prod"
                     }
                 ]
             },
@@ -640,7 +640,7 @@
                     "start": 11,
                     "end": 18,
                     "value": "polizza",
-                    "entity": "info_prod_type"
+                    "entity": "prod"
                 }]
             },
             {
@@ -650,7 +650,7 @@
                     "start": 12,
                     "end": 17,
                     "value": "mutuo",
-                    "entity": "types_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -660,7 +660,7 @@
                     "start": 12,
                     "end": 19,
                     "value": "polizze",
-                    "entity": "types_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -670,7 +670,7 @@
                     "start": 19,
                     "end": 24,
                     "value": "mutui",
-                    "entity": "types_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -680,7 +680,7 @@
                     "start": 26,
                     "end": 33,
                     "value": "polizza",
-                    "entity": "types_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -720,7 +720,7 @@
                     "start": 22,
                     "end": 27,
                     "value": "mutuo",
-                    "entity": "types_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -730,7 +730,7 @@
                     "start": 13,
                     "end": 20,
                     "value": "polizze",
-                    "entity": "types_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -740,7 +740,7 @@
                     "start": 10,
                     "end": 17,
                     "value": "polizze",
-                    "entity": "types_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -755,7 +755,7 @@
                     "start": 15,
                     "end": 20,
                     "value": "mutuo",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -765,22 +765,22 @@
             },
             {
                 "text": "devo acquistare casa",
-                "intent": "mortgage",
+                "intent": "info_prod",
                 "entities": []
             },
             {
                 "text": "vorrei acquistare la seconda casa",
-                "intent": "mortgage",
+                "intent": "info_prod",
                 "entities": []
             },
             {
                 "text": "sto cercando casa!",
-                "intent": "mortgage",
+                "intent": "info_prod",
                 "entities": []
             },
             {
                 "text": "comprare casa",
-                "intent": "mortgage",
+                "intent": "info_prod",
                 "entities": []
             },
             {
@@ -790,7 +790,7 @@
                         "start": 13,
                         "end": 18,
                         "value": "mutuo",
-                        "entity": "info_prod_what"
+                        "entity": "prod"
                     },
                     {
                         "start": 22,
@@ -807,7 +807,7 @@
                         "start": 17,
                         "end": 22,
                         "value": "mutuo",
-                        "entity": "info_prod_what"
+                        "entity": "prod"
                     },
                     {
                         "start": 26,
@@ -824,7 +824,7 @@
                         "start": 19,
                         "end": 24,
                         "value": "mutuo",
-                        "entity": "info_prod_what"
+                        "entity": "prod"
                     },
                     {
                         "start": 28,
@@ -841,7 +841,7 @@
                         "start": 23,
                         "end": 28,
                         "value": "mutuo",
-                        "entity": "info_prod_what"
+                        "entity": "prod"
                     },
                     {
                         "start": 3,
@@ -884,7 +884,7 @@
                     "start": 4,
                     "end": 11,
                     "value": "polizze",
-                    "entity": "types_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -894,7 +894,7 @@
                     "start": 6,
                     "end": 11,
                     "value": "mutui",
-                    "entity": "types_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -904,7 +904,7 @@
                     "start": 6,
                     "end": 13,
                     "value": "polizze",
-                    "entity": "types_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -914,7 +914,7 @@
                     "start": 4,
                     "end": 9,
                     "value": "mutui",
-                    "entity": "types_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -969,7 +969,7 @@
                     "start": 18,
                     "end": 25,
                     "value": "polizze",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -984,7 +984,7 @@
                     "start": 0,
                     "end": 7,
                     "value": "polizza",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -994,7 +994,7 @@
                         "start": 10,
                         "end": 15,
                         "value": "mutuo",
-                        "entity": "info_prod_what"
+                        "entity": "prod"
                     },
                     {
                         "start": 18,
@@ -1017,13 +1017,13 @@
                         "start": 21,
                         "end": 28,
                         "value": "polizza",
-                        "entity": "info_prod_what"
+                        "entity": "prod"
                     },
                     {
                         "start": 29,
                         "end": 37,
                         "value": "Serenity",
-                        "entity": "info_prod_type"
+                        "entity": "prod"
                     }
                 ]
             },
@@ -1034,7 +1034,7 @@
                     "start": 4,
                     "end": 11,
                     "value": "polizze",
-                    "entity": "types_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -1044,7 +1044,7 @@
                     "start": 16,
                     "end": 21,
                     "value": "mutuo",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
@@ -1054,13 +1054,68 @@
                     "start": 21,
                     "end": 28,
                     "value": "polizza",
-                    "entity": "info_prod_what"
+                    "entity": "prod"
                 }]
             },
             {
                 "text": "devo prendere la prima casa",
-                "intent": "mortgage",
+                "intent": "info_prod",
                 "entities": []
+            },
+            {
+                "text": "mi serve casa",
+                "intent": "info_prod",
+                "entities": []
+            },
+            {
+                "text": "mi serve la prima casa",
+                "intent": "info_prod",
+                "entities": []
+            },
+            {
+                "text": "di quale documentazione ho bisogno?",
+                "intent": "docs_prod",
+                "entities": []
+            },
+            {
+                "text": "che documenti servono per il mutuo?",
+                "intent": "docs_prod",
+                "entities": [{
+                    "start": 29,
+                    "end": 34,
+                    "value": "mutuo",
+                    "entity": "prod"
+                }]
+            },
+            {
+                "text": "che documenti servono",
+                "intent": "docs_prod",
+                "entities": []
+            },
+            {
+                "text": "per la polizze che documenti devo portare?",
+                "intent": "docs_prod",
+                "entities": [{
+                    "start": 7,
+                    "end": 14,
+                    "value": "polizze",
+                    "entity": "prod"
+                }]
+            },
+            {
+                "text": "qual'è la documentazione necessaria?",
+                "intent": "docs_prod",
+                "entities": []
+            },
+            {
+                "text": "ho bisogno di portare dei documenti per aprire il mutuo?",
+                "intent": "docs_prod",
+                "entities": [{
+                    "start": 50,
+                    "end": 55,
+                    "value": "mutuo",
+                    "entity": "prod"
+                }]
             }
         ]
     }
